@@ -1,10 +1,10 @@
-let n = 10
-for(let i=1;i<=n;i++){
+let end = 10
+for(let start=1;start<=end;start++){
 
-console.log(i)
+console.log(start)
 }
 
 console.log("************")
-for(let i=n;i>=1;i--){
-    console.log(i)
+for(let start=end;start>=1;start--){
+    console.log(start)
 }
